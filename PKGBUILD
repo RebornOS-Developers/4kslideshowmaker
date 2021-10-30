@@ -1,8 +1,8 @@
 # Maintainer: Rafael <rafael@rebornos.org>
-# 2.0.0.1054
+# v2.0.1.1055
 
 pkgname=4kslideshowmaker
-pkgver=2.0.0
+pkgver=2.0.1
 pkgrel=1
 pkgdesc="Enjoy videos anywhere, anytime regardless of whether you are offline."
 arch=('any')
@@ -12,7 +12,7 @@ makedepends=('make')
 provides=(${pkgname})
 conflicts=(${pkgname})
 source=(${url}/${pkgname}_${pkgver}-${pkgrel}_amd64.deb)
-sha512sums=('00094cd161f296b20e7db9cc07ce584203b4db93478a392cf110949f2ba91ae9c0599f5d3e1f79c41764c19770ca589e19ecab23b255ac70c4c26a2c034f718a')
+sha512sums=('fd249d3934eac8490ac287d4a52c3d453966283e295d419b2ee6db3dd788269a5033ef4d64b9902b538d4abd6ff091182b94e3f6243c5ce72c82b68cb1c49382')
 
 package() {
            mkdir -p ${pkgdir}/usr/bin
